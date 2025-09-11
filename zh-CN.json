@@ -34,5 +34,20 @@
     "old": "远古版",
     "april": "愚人节（未分类）",
     "search_for": "搜索"
+  },
+  "link": {
+    "nav": {
+      "start": "开始联机",
+      "lobby": "大厅",
+      "more_options": "更多选项",
+      "setting": "设置",
+      "common_question": "常见问题",
+      "about_and_feedback": "关于和反馈"
+    },
+    "lobby": {
+      "join_lobby": "加入大厅",
+      "join_lobby_description": "1. 在下方输入朋友发送给你的大厅编号，单击「加入」\n2. 启动游戏，选择「多人游戏」，在局域网游戏中加入大厅",
+      "create_lobby": "创建大厅"
+    }
   }
 }

@@ -34,5 +34,21 @@
     "old": "Old Versions",
     "april": "April Fools (not classified yet)",
     "search_for": "Search for"
+  },
+  "link": {
+    "nav": {
+      "start": "Start",
+      "lobby": "Lobby",
+      "more_options": "Options",
+      "setting": "Setting",
+      "common_question": "Common Question",
+      "about_and_feedback": "Feedback"
+    },
+    "lobby": {
+      "join_lobby": "Join lobby",
+      "join_lobby_description": "1. Enter the code from your your friend and click 'join'\n2. launch the game and join in",
+      "enter_lobby_code": "Enter lobby code",
+      "create_lobby": "Create lobby"
+    }
   }
 }

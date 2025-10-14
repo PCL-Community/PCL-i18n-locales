@@ -7,13 +7,13 @@
 1. 在你的项目中安装此包。
 
 ```sh
-npm install @amagicpear/pcl-locales
+npm install @pcl-community/pcl-locales
 ```
 
 2. 引入包即可开始使用。例如：
 
 ```javascript
-import locales from '@amagicpear/pcl-locales'
+import locales from '@pcl-community/pcl-locales'
 console.log(locales[navigator.language].main_nav.home)
 ```
 
@@ -27,7 +27,7 @@ console.log(locales[navigator.language].main_nav.home)
 ```ts
 import App from './App.vue'
 import { createApp } from 'vue'
-import locales from '@amagicpear/pcl-locales'
+import locales from '@pcl-community/pcl-locales'
 import { createI18n } from 'vue-i18n'
 
 const i18n = createI18n({

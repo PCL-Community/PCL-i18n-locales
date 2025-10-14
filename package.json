@@ -1,6 +1,6 @@
 {
-  "name": "@amagicpear/pcl-locales",
-  "version": "1.0.0",
+  "name": "@pcl-community/pcl-locales",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

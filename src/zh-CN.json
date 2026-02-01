@@ -37,6 +37,15 @@
     "april": "愚人节",
     "search_for": "搜索"
   },
+  "setup": {
+    "nav": {
+      "game": "游戏",
+      "launcher": "启动器",
+      "info": "软件信息",
+      "about": "关于",
+      "feedback": "反馈"
+    }
+  },
   "tools": {
     "nav": {
       "link": "联机",

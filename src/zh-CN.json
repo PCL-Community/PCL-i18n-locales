@@ -53,6 +53,17 @@
       "wondertoys": "奇妙小工具",
       "wonderbox": "百宝箱",
       "help": "帮助库"
+    },
+    "link": {
+      "user_type": {
+        "HOST": "主机",
+        "CLIENT": "成员"
+      },
+      "enter_custom_port": "输入 Minecraft 端口",
+      "enter_lobby_code": "输入联机码",
+      "join_lobby": "加入大厅",
+      "join_lobby_description": "1. 输入你的朋友的代码并点击「加入大厅」\n2. 启动游戏并加入大厅",
+      "create_lobby": "创建大厅"
     }
   }
 }

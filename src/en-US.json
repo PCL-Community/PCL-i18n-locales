@@ -4,7 +4,8 @@
     "download": "Download",
     "link": "Link",
     "setup": "Setup",
-    "more": "More"
+    "more": "More",
+    "tools": "Tools"
   },
   "home": {
     "launch_game": "Launch Game",
@@ -23,6 +24,7 @@
       "data_pack": "Data Pack",
       "resource_pack": "Resource Pack",
       "shader_pack": "Shader Pack",
+      "world": "World",
       "favorites": "Favorites"
     },
     "latest": "Latest",
@@ -35,19 +37,32 @@
     "april": "April Fools",
     "search_for": "Search for"
   },
-  "link": {
+  "setup": {
     "nav": {
-      "start": "Start",
+      "game": "Game",
+      "launcher": "Launcher",
+      "info": "Software Info",
+      "about": "About",
+      "feedback": "Feedback"
+    }
+  },
+  "tools": {
+    "nav": {
+      "link": "Link",
       "lobby": "Lobby",
-      "more_options": "Options",
-      "setting": "Setting",
-      "common_question": "Common Question",
-      "about_and_feedback": "Feedback"
+      "wondertoys": "Wonder Toys",
+      "wonderbox": "Wonder Box",
+      "help": "Help"
     },
-    "lobby": {
-      "join_lobby": "Join lobby",
-      "join_lobby_description": "1. Enter the code from your your friend and click 'join'\n2. launch the game and join in",
+    "link": {
+      "user_type": {
+        "HOST": "Host",
+        "CLIENT": "Client"
+      },
+      "enter_custom_port": "Enter Minecraft port",
       "enter_lobby_code": "Enter lobby code",
+      "join_lobby": "Join lobby",
+      "join_lobby_description": "1. Enter the code from your friend and click 'join'\n2. Launch the game and join in",
       "create_lobby": "Create lobby"
     }
   }

@@ -57,7 +57,8 @@
     "link": {
       "user_type": {
         "HOST": "Host",
-        "CLIENT": "Client"
+        "GUEST": "Guest",
+        "LOCAL": "Local"
       },
       "enter_custom_port": "Enter Minecraft port",
       "enter_lobby_code": "Enter lobby code",

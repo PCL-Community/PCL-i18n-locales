@@ -57,7 +57,8 @@
     "link": {
       "user_type": {
         "HOST": "主机",
-        "CLIENT": "成员"
+        "GUEST": "成员",
+        "LOCAL": "本机"
       },
       "enter_custom_port": "输入 Minecraft 端口",
       "enter_lobby_code": "输入联机码",

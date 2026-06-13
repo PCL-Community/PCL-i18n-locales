@@ -1,16 +1,28 @@
-本项目是PCL.Proto的子项目，用于PCL的i18n翻译。
+本项目是PCL.Proto的子项目，用于PCL的i18n翻译。包发布在 [GitHub Packages](https://github.com/PCL-Community/PCL-i18n-locales/packages)。
 
 ## 使用方法
 
 ### 前端项目
 
-1. 在你的项目中安装此包。
+1. 配置 GitHub Packages registry。在项目根目录创建 `.npmrc` 文件：
+
+```ini
+@pcl-community:registry=https://npm.pkg.github.com
+```
+
+2. 安装此包。
 
 ```sh
 npm install @pcl-community/pcl-locales
 ```
 
-2. 引入包即可开始使用。例如：
+> [!NOTE]
+> GitHub Packages 需要认证才能安装。在 `~/.npmrc` 中配置你的 [Personal Access Token](https://github.com/settings/tokens)（需要 `read:packages` 权限）：
+> ```ini
+> //npm.pkg.github.com/:_authToken=YOUR_TOKEN
+> ```
+
+3. 引入包即可开始使用。例如：
 
 ```javascript
 import locales from '@pcl-community/pcl-locales'

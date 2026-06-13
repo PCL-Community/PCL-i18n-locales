@@ -1,6 +1,6 @@
 {
   "name": "@pcl-community/pcl-locales",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsup src/index.ts --format esm,cjs --dts"
   },
   "exports": {
     ".": {
@@ -18,9 +18,11 @@
     }
   },
   "devDependencies": {
+    "tsup": "^8.5.1",
     "typescript": "^5.4.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
